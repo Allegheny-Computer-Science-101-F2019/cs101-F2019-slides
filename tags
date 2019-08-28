@@ -1466,7 +1466,7 @@ createBackgrounds	js/reveal.js	/^	function createBackgrounds() {$/;"	f	function:
 createMarkdownSlide	plugin/markdown/markdown.js	/^	function createMarkdownSlide( content, options ) {$/;"	f	function:AnonymousFunction834385430100
 createSingletonNode	js/reveal.js	/^	function createSingletonNode( container, tagname, classname, innerHTML ) {$/;"	f	function:Reveal
 cs	plugin/highlight/highlight.js	/^var hljs=new function(){function l(o){return o.replace(\/&\/gm,"&amp;").replace(\/<\/gm,"&lt;")./;"	f	function:hljs.LANGUAGES
-cs103-S2018-slides	README.md	/^# cs103-S2018-slides$/;"	c
+cs101-F2019-slides	README.md	/^# cs101-F2019-slides$/;"	c
 css	plugin/highlight/highlight.js	/^var hljs=new function(){function l(o){return o.replace(\/&\/gm,"&amp;").replace(\/<\/gm,"&lt;")./;"	f	function:hljs.LANGUAGES
 d	js/reveal.min.js	/^var Reveal=function(){"use strict";function a(a){if(b(),!ec.transforms2d&&!ec.transforms3d)retur/;"	f	function:Reveal
 d	js/reveal.min.js	/^var Reveal=function(){"use strict";function a(a){if(b(),!ec.transforms2d&&!ec.transforms3d)retur/;"	v
