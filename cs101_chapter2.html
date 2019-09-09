@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-7">
+
+    <title>Computer Science 101: Data Abstraction</title>
+
+    <meta name="description" content="Teaching Slides for Computer Science 101">
+    <meta name="author" content="Gregory M. Kapfhammer">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night-gkapfham.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Install Font Awesome and the Google Web fonts -->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet" type="text/css">
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+if( window.location.search.match( /print-pdf/gi ) ) {
+  var link = document.createElement( 'link' );
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = 'css/print/pdf.css';
+  document.getElementsByTagName( 'head' )[0].appendChild( link );
+}
+    </script>
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section data-background-transition="none" data-background="https://images.unsplash.com/photo-1452860606245-08befc0ff44b" style="background: rgba(29,31,33,0.9)">
+          <h1>Computer Science 101</h1>
+          <h2>Data Abstraction</h2>
+          <p>Gregory M. Kapfhammer</p>
+        </section>
+
+        <section>
+          <h1>Color Scheme</h1>
+          <p class="fragment"><b class="orange">Key Concept</b></p>
+          <p class="fragment"><b class="purple">Corresponding Diagram</b></p>
+          <p class="fragment"><b class="green">In-Class Discussion</b></p>
+          <p class="fragment"><b class="red">In-Class Activity</b></p>
+          <p class="fragment"><b class="blue">Details in the Textbook</b></p>
+        </section>
+
+        <section>
+          <h1>Object-Oriented Design</h1>
+          <p class="fragment">Goals: robustness, adaptability, reusability</p>
+          <p class="fragment">Principles: abstract, encapsulation, modularity</p>
+          <p class="fragment">Terms: polymorphism, inheritance, encapsulation</p>
+          <p class="fragment"><b class="green">Any questions about these key points?</b></p>
+        </section>
+
+        <section>
+          <h1><b class="orange">Language constructs support these principles</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Figure 2.3 for a complex inheritance hierarchy</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Figure 2.4 for a simple inheritance hierarchy</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Figure 2.5 for another inheritance hierarchy</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">What is a numerical progression?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Code Fragment 2.7</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">Interfaces and abstract classes</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Establish a contract for an implementation</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Defer implementation to another class</b></h1>
+        </section>
+
+        <section>
+          <h1 id="what_is_an_array?"><b class="orange">Exception Handling</b></h1>
+        </section>
+
+        <section>
+          <h1 id="motivation_for_using_arrays"><b class="green">What could go wrong?</b></h1>
+        </section>
+
+        <section>
+          <h1 id="file_system_problems"><b class="orange">File system problems</b></h1>
+        </section>
+
+        <section>
+          <h1 id="network_communication_concerns"><b class="orange">Network problems</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="red">Write a Java program that divides a variable by zero!</b></h1>
+        </section>
+
+        <section>
+          <h1>How to Handle?</h1>
+          <p class="fragment">Do not handle the exception</p>
+          <p class="fragment">Handle the exception where it occurs</p>
+          <p class="fragment">Handle the exception somewhere else in the program</p>
+          <p class="fragment"><b class="green">What are the trade-offs of these solutions?</b></p>
+        </section>
+
+        <section>
+          <h1 id="uncaught_exceptions"><b class="orange">Uncaught exceptions</b></h1>
+        </section>
+
+        <section>
+          <h1 id="caught_exceptions"><b class="orange">Caught Exceptions</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">How are exception types similar and different?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Try-Catch Statements</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">Casting and Generics</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Why are generics important?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Let's investigate a method signature!</b></h1>
+        </section>
+
+        <section>
+          <h2><b class="orange"><code>public static &lt;T&gt; void reverse(T[] data)</code></b></h2>
+        </section>
+
+        <section>
+          <h1><b class="blue">Nested Classes</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Why are nested classes important?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Intuitively, a class within a class</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Any questions about object-oriented design?</b></h1>
+        </section>
+
+      </div>
+
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.min.js"></script>
+
+      <script>
+
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+  controls: true,
+  progress: true,
+  history: true,
+  center: true,
+
+  theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+  transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+  // Parallax scrolling
+  // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+  // parallaxBackgroundSize: '2100px 900px',
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+  { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+  { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+  { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+  { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+  { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+});
+
+      </script>
+
+  </body>
+</html>
