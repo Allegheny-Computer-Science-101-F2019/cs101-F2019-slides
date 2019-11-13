@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-7">
+
+    <title>Computer Science 101: Data Abstraction</title>
+
+    <meta name="description" content="Teaching Slides for Computer Science 101">
+    <meta name="author" content="Gregory M. Kapfhammer">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night-gkapfham.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Install Font Awesome and the Google Web fonts -->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet" type="text/css">
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section data-background-transition="none" data-background="https://images.unsplash.com/photo-1452860606245-08befc0ff44b" style="background: rgba(29,31,33,0.9)">
+          <h1>Computer Science 101</h1>
+          <h2>Data Abstraction</h2>
+          <p>Gregory M. Kapfhammer</p>
+        </section>
+
+        <section>
+          <h1>Color Scheme</h1>
+          <p class="fragment"><b class="orange">Key Concept</b></p>
+          <p class="fragment"><b class="purple">Corresponding Diagram</b></p>
+          <p class="fragment"><b class="green">In-Class Discussion</b></p>
+          <p class="fragment"><b class="red">In-Class Activity</b></p>
+          <p class="fragment"><b class="blue">Details in the Textbook</b></p>
+        </section>
+
+        <section>
+          <h1><b class="green">Limitations of the tree?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Still, not efficient searching!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">HashTables to the rescue!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Well, sort of ...</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Associative arrays</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Key, value pairs</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange"><code>put(k,v)</code></b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange"><code>get(k)</code></b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange"><code>getKeys()</code></b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange"><code>getValues()</code></b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange"><code>getPairs()</code></b></h1>
+        </section>
+
+        <section>
+          <h1><b class="red">Counting words with a HashTable</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">What is the input?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">What is the output?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">How will the HashTable help?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">How does the HashTable work?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Map <code>k,v</code> and lookup <code>k</code> quickly!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">A Cool Function + An Array</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Figure 10.5!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Arbitrary objects</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Hash code</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Compression function</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Bucket array</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Figure 10.5 for more details</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">What could go wrong with HashTables?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Collisions could make the search slower!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="blue">See Table 10.2 for time complexities</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="red">Discuss these time complexities</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Expected versus worst-case?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Security implications of poor performance?</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Denial of service attacks!</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">Insert data to <em>cause</em> poor performance</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="orange">We will explore HashTables in an assignment</b></h1>
+        </section>
+
+        <section>
+          <h1><b class="green">Any questions about HashTables?</b></h1>
+        </section>
+
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Parallax scrolling
+        // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+        // parallaxBackgroundSize: '2100px 900px',
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
